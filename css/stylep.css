@@ -1,0 +1,9 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .form-container * {
+        visibility: visible;
+        color:black!important;
+    }
+}

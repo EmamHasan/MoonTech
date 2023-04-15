@@ -1,0 +1,144 @@
+
+*{
+  color:rgb(255, 255, 255)!important;
+  /* background-color:rgb(52, 51, 51)!important; */
+}
+body{
+  background-color:rgb(52, 51, 51)!important;
+}
+.container{
+  max-width: 80rem;
+  margin: auto;
+  color: white;
+}
+.navbar{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color:rgba(109, 108, 108, 0.308)!important;
+}
+
+.nav2 {
+  width: 100%;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.nav2>.nav-item:hover{
+  background-color:rgba(0, 0, 0, 0.389)!important;
+}
+
+.btn-primary{
+  border-radius:5px;
+  background-color:black!important;
+  border: 3px solid gray!important;
+  padding: 0;
+}
+.cc .nav-link{
+  color:white!important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#tecred{
+  color:red!important;
+}
+.cart{
+  background-color:rgb(13, 62, 12)!important;
+  margin-right: 1rem;
+  border: 3px solid rgb(105, 72, 72)!important;
+}
+.cart .nav-link{
+  color:white!important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pbuil{
+  font-weight: bold;
+}
+.pbuil:hover{
+  color:rgb(99, 99, 192)!important;
+}
+.dropdown-menu{
+  background-color:rgb(60, 61, 61)!important;
+}
+.dropdown-menu a:hover{
+  background-color:rgb(0, 0, 0)!important;
+}
+footer{
+  background-color:rgba(109, 108, 108, 0.308)!important;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2rem;
+}
+footer p{
+  text-align: center;
+  justify-content:center;
+}
+
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: rgb(69, 69, 69);
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: rgb(15, 15, 15);
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: rgb(189, 181, 181);
+   border-radius: 5px;
+   color:black!important;
+}
+
+.form-container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
